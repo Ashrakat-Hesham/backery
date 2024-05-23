@@ -1,0 +1,443 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Alegreya, serif, monospace;
+
+}
+i{
+    color:#4e4639
+} 
+
+.family-bakery {
+    height: 100vh;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    background-position: center center;
+    position: relative;
+
+}
+
+.backgroundColor {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+a img {
+
+    text-align: top left;
+    width: 150px;
+    margin: 18px 75px;
+}
+
+.family-bakery .text {
+    text-align: center;
+    padding-top: 130px;
+    color: #ccc;
+    font-size: 24px;
+
+}
+
+.family-bakery .text h1 {
+    padding: 40px 0;
+    color: #fff;
+    font-size: 70px;
+}
+
+.family-bakery .text p {
+    font-family: Alegreya Sans, sans-serif, monospace;
+    font-size: 24px;
+}
+
+.family-bakery .text button {
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.family-bakery .text .btn1 {
+    border: none;
+    background-color: #8e7754;
+}
+
+.family-bakery .text .btn2 {
+    border-color: #fff;
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+
+.text .btn2:hover {
+    background-color: white;
+    color: #000;
+}
+
+.include {
+    margin-bottom: 50px;
+}
+
+.mouse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mouseRoll {
+    width: 30px;
+    height: 60px;
+    position: relative;
+    bottom: 0%;
+    border: 3px solid #ccc;
+    border-radius: 30px;
+}
+
+.mouseRoll::after {
+    content: '';
+    width: 2px;
+    height: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+/*                                                            */
+.parent {
+    margin: 100px 90px;
+    display: flex;
+}
+
+.photo {
+    width: 40%;
+}
+
+.parent .photo img {
+    width: 100%;
+}
+
+.parent .us {
+    text-align: center;
+    width: 60%;
+    margin-left: 40px;
+}
+
+.parent .us h2 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.parent .us .us-1 {
+    text-align: left;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+    align-items: center;
+
+}
+
+
+.parent .us p {
+    font-size: 25px;
+    color: #686868;
+}
+
+.parent .us .us-1 p {
+    font-size: 20px;
+}
+
+.us-1 i {
+    font-size: 25px;
+}
+
+.us-1 .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #403d3828;
+    margin-right: 20px;
+}
+
+/*                              ourLocation                       */
+.location {
+    background-color: #f8f8f8;
+    display: flex;
+}
+
+.location .us {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+
+}
+
+.location .us .ourlocation .story1 {
+    color: #686868;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 30px;
+}
+
+.location .us .ourlocation .story {
+    color: #686868;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+.location .photo1 {
+    width: 50%;
+    padding: 80px;
+}
+
+.location .photo1 img {
+    width: 100%;
+}
+
+
+
+
+/*                          backing                              */
+.backing {
+
+    margin: 0 30px;
+    padding: 30px 0 70px;
+}
+
+.backing .ourbacking {
+    text-align: center;
+}
+
+.backing .col {
+    color: #686868;
+    font-size: 18px;
+    padding: 20px 0 10px 0;
+}
+
+.backing .kinds {
+    display: flex;
+    margin: 20px 50px 50px 50px;
+}
+
+.backing .kind {
+    width: 33.33%;
+    text-align: center;
+
+}
+
+.backing .kind-1 {
+    margin: 0 50px;
+}
+
+.kinds .kind .words {
+    margin-top: 20px;
+}
+
+.backing .kind p {
+    color: #686868;
+    font-size: 20px;
+    margin: 10px 0;
+
+}
+
+.backing .kind .imagee {
+    width: 100%;
+
+}
+
+/*                  contact info                                  */
+
+.info {
+    background-color: #f8f8f8;
+    display: flex;
+    padding: 100px;
+}
+
+.info .contactinfo {
+    text-align: center;
+    width: 50%;
+    padding-right: 20px;
+}
+
+.info .contactinfo h2 {
+    color: #403d38;
+    padding-bottom: 10px;
+}
+
+.info .contactinfo p {
+    color: #686868;
+    font-size: 20px;
+}
+
+.info .contactinfo .details {
+    text-align: left;
+}
+
+.info .contactinfo .details p {
+    text-align: left;
+    font-size: 25px;
+    color: #8e7754;
+}
+
+.info .contactinfo .details ul {
+    font-size: 20px;
+    color: #8e7754;
+    padding-top: 20px;
+}
+
+.info .contactinfo .details li {
+    font-size: 18px;
+    color: #8e7754;
+    list-style: none;
+    padding: 20px 0;
+}
+
+.details .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #403d3828;
+    margin-right: 20px;
+
+}
+
+.details .icons {
+    display: flex;
+    align-items: center;
+}
+
+.info .map {
+    width: 50%;
+}
+
+.info .map img {
+    width: 100%;
+}
+
+
+/*                          about us                             */
+.aboutUs {
+    padding: 40px 20px;
+    background-color: #403d38;
+    display: flex;
+}
+
+
+
+.aboutUs .about {
+    width: 25%;
+    text-align: left;
+}
+
+.aboutUs h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.aboutUs .about p {
+    color: #686868;
+    font-size: 20px;
+}
+
+.aboutUs .special {
+    width: 25%;
+    text-align: left;
+}
+
+.aboutUs .special li {
+    color: #686868;
+    font-size: 25px;
+   list-style: none;
+}
+
+.aboutUs hr {
+    width: 80%;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.aboutUs .openhours {
+    width: 25%;
+    text-align: left;
+}
+
+.aboutUs .openhours li {
+    color: #686868;
+    font-size: 25px;
+  list-style: none;
+}
+
+.aboutUs .condetails {
+    width: 25%;
+    text-align: left;
+}
+.aboutUs .condetails li{list-style: none;
+    margin-bottom: 20px;}
+.aboutUs .condetails ul li a {
+    color: #686868;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+
+}
+/*                           footer                             */
+.foot {
+    background-color: #353330;
+ padding: 20px 0;
+}
+.foot img{
+   margin: auto;
+}
+.words p{
+    text-align: center;
+    margin:10px 0;
+    color:#ccc
+}
+.footerImg{
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #403d3828;
+    margin:20px ;
+}
+.icons .icon i{
+font-size: 20px;}
